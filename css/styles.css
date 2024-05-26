@@ -8,8 +8,7 @@
 
 body{
     background-color: rgb(206, 214, 240);
-    font-family: "suez one", sans-serif;
-    font-size: small;
+    font-family: "zilla slab";
     padding: 250px 100px;
     align-items: center;
 }
@@ -19,38 +18,53 @@ body{
     border-radius: 10px;
     padding: 50px;
 }
-/* 
+ 
 .cont2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     
 }
-*/
+
 
 h3{
     font-family: "zilla slab";
     font-size: small;
+    letter-spacing: 0.5px;
     color: #4269E2;
     text-align: center;
-    padding: 7px;
+    padding: 5px;
 }
 
+ .principal{
+    font-family: "Suez One" ;
+    font-size: 30px;
+    font-weight: 20;
+    color: #08114d;
+    text-align: center;
+    padding: 5px;
+
+ }
 h2{
     font-family: "zilla slab";
     font-size: 11px;
+    letter-spacing: 0.5px;
     color:#4d4d4d;
     text-align: center;
 
 }
- .principal{
-    font-family: "Suez One" ;
-    font-size: 24px;
-    color: #08114d;
-    text-align: center;
 
- }
-
- /*  
+ 
  .row{
     padding: 5px;
     box-sizing: border-box;
-    text-align: center;
- } */
+    text-align: left
+ }
+
+ .row img{
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    background-color:#4269E2;
+    border:#4269E2 solid;
+ }
