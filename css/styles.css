@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +8,8 @@
 
 body{
     background-color: rgb(206, 214, 240);
-    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-family: "suez one", sans-serif;
+    font-size: small;
     padding: 250px 100px;
     align-items: center;
 }
@@ -22,20 +26,23 @@ body{
 */
 
 h3{
-    font: italic bold 13px/1.5 Arial, sans-serif;
+    font-family: "zilla slab";
+    font-size: small;
     color: #4269E2;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
 }
 
 h2{
-    font: italic bold 11px/1.5 Arial, sans-serif;
+    font-family: "zilla slab";
+    font-size: 11px;
     color:#4d4d4d;
     text-align: center;
 
 }
  .principal{
-    font: italic bold 24px/1.5 Arial, sans-serif;
+    font-family: "Suez One" ;
+    font-size: 24px;
     color: #08114d;
     text-align: center;
 
