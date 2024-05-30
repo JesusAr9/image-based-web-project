@@ -16,13 +16,15 @@ body{
 .cont1 {
     background-color: white;
     border-radius: 10px;
-    padding: 50px;
+    padding: 90px;
+
 }
  
 .cont2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 50px 20px 10px 20px;
     
 }
 
@@ -43,28 +45,39 @@ h3{
     color: #08114d;
     text-align: center;
     padding: 5px;
-
  }
+
+h1{
+    color: #0d1b71;
+}
+
 h2{
     font-family: "zilla slab";
     font-size: 11px;
     letter-spacing: 0.5px;
     color:#4d4d4d;
     text-align: center;
-
 }
-
  
- .row{
-    padding: 5px;
-    box-sizing: border-box;
-    text-align: left
+ .row span{
+    padding: 10px 0px 20px 0px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+    
  }
 
- .row img{
+ .row .bi{
     color: white;
-    border-radius: 50px;
-    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    padding: 5px;
     background-color:#4269E2;
-    border:#4269E2 solid;
+ }
+
+ .row:hover{
+        background-color: #f0f0f0; 
+        transition: background-color 0.3s ease;
+        transform: translateY(-5px);
  }
